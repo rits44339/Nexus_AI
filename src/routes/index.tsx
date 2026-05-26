@@ -13,9 +13,9 @@ import {
   Play,
   Check,
   Star,
-  Twitter as XIcon,
-  Github as GhIcon,
-  Linkedin as InIcon,
+  Send,
+  Code,
+  Link2,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import orbImg from "@/assets/nexus-orb.jpg";
@@ -453,7 +453,7 @@ function Footer() {
           ))}
         </div>
         <div className="flex items-center gap-3">
-          {[Twitter, Github, Linkedin].map((I, i) => (
+          {[Send, Code, Link2].map((I, i) => (
             <a key={i} href="#" className="grid h-8 w-8 place-items-center rounded-full border border-white/10 text-muted-foreground transition-all hover:border-white/30 hover:text-foreground hover:shadow-glow-cyan">
               <I className="h-4 w-4" />
             </a>
