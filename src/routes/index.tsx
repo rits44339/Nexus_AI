@@ -13,9 +13,9 @@ import {
   Play,
   Check,
   Star,
-  Twitter,
-  Github,
-  Linkedin,
+  Twitter as XIcon,
+  Github as GhIcon,
+  Linkedin as InIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import orbImg from "@/assets/nexus-orb.jpg";
