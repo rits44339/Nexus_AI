@@ -68,7 +68,7 @@ export function ChatWindow({
 
   const isLoading = status === "submitted" || status === "streaming";
 
-  const onSubmit = (e: React.FormEvent) => {
+  const onSubmit = (_message: unknown, e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const v = input.trim();
     if (!v || isLoading) return;
